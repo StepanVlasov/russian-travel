@@ -1,0 +1,14 @@
+.header__links {
+    width: 77px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+    .header__links {
+        width: 62px;
+        height: 20px;
+    }
+}
