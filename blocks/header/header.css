@@ -1,7 +1,7 @@
 .header {
     width: 90vw;
     height: 52px;
-    margin: 0 auto 0 auto;
+    margin: 16px auto 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
