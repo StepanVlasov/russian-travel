@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./pages/index.css" rel="stylesheet" type="text/css">
-    <link href="./styles/style.css" rel="stylesheet" type="text/css">
     <title>travel-russia</title>
     
 </head>
@@ -14,8 +13,8 @@
         <header class="header">
             <img src="./images/header-logo.svg" class="header__logo" alt="Россия">
             <div class="header__links">
-                <a href="#" class="header__lang-link">Ru</a>
-                <a href="#" class="header__lang-link">En</a>
+                <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+                <a href="#" class="header__lang-link header__lang-link_active">En</a>
             </div>
         </header>
 
@@ -23,7 +22,7 @@
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <img src="./images/lead-polka.jpg" class="lead__image" alt="Маршрут">
-            <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
+            <p class="lead__caption">ваша полка — верхняя</p>
         </section>
 
         <main>
@@ -35,11 +34,11 @@
                 Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
                 Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-                <li class="intro__line">Часовых поясов 11</li>
-                <li class="intro__line">Объектов природного наследия ЮНЕСКО 12</li>
-                <li class="intro__line">Объектов культурного наследия ЮНЕСКО 16</li>
-                <li class="intro__line">Природных заповедников 105</li>
-                <li class="intro__line">Аэропортов 241</li>
+                <li class="intro__line"><span class="intro__line_bold">Часовых поясов</span> 11</li>
+                <li class="intro__line"><span class="intro__line_bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                <li class="intro__line"><span class="intro__line_bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                <li class="intro__line"><span class="intro__line_bold">Природных заповедников</span> 105</li>
+                <li class="intro__line"><span class="intro__line_bold">Аэропортов</span> 241</li>
             </ul>
         </section>
 
@@ -142,12 +141,12 @@
         </section>
         
         <section class="cover">
-            <div class="cover__background">
-                <img src="./images/cover-trains.jpg" class="cover__image" alt="Пути">
-            </div>
+            <img src="./images/cover-trains.jpg" class="cover__background" alt="Пути">
             <div class="cover__overlay"></div>
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            <a href="#" class="cover__link">
+                <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+            </a>
         </section>
         </main>
 

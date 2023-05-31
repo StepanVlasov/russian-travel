@@ -1,17 +1,15 @@
 .header__links {
-    width: 77px;
-    height: 28px;
+    min-width: 77px;
+    max-height: 28px;
     display: flex;
-    font-family: "Inter-Regular", "Arial", sans-serif;
-    font-size: 1.1em;
-    line-height: 1.1;
+    column-gap: 18px;
     justify-content: space-between;
     align-items: center;
 }
 
 @media screen and (max-width: 425px) {
     .header__links {
-        width: 62px;
-        height: 20px;
+        min-width: 62px;
+        max-height: 20px;
     }
 }

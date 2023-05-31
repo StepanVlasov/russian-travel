@@ -1,6 +1,7 @@
 .footer {
     max-width: 94%;
-    margin: 92px auto 24px auto;
+    margin: 92px auto 0 auto;
+    padding-bottom: 24px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

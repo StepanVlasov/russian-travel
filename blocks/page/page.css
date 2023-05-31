@@ -1,22 +1,6 @@
-@font-face {
-    font-family: "Inter-Bold";
-    src: local("Inter-Bold"), url("fonts/Inter-Bold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Inter-Light";
-    src: local("Inter-Light"), url("/fonts/Inter-Light.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Inter-Regular";
-    src: local("Inter-Regular"), url("/fonts/Inter-Regular.woff2") format("woff2");
-}
-
 .page {
     width: 100%;
-    background-color: #3a3a3a;
-    overflow: hidden;
+    background-color: #2A2C2F;
     color: white;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
