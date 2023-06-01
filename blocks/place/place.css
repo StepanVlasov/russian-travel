@@ -1,4 +1,5 @@
 .place {
+    max-width: 94%;
     display: grid;
     grid-template-columns: repeat(2, 1fr) fit-content(50%);
     grid-template-rows: repeat(2, fit-content(200px));

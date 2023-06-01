@@ -1,11 +1,10 @@
 .cover {
     max-width: 94%;
-    height: auto;
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    grid-auto-flow: unset;
+    grid-auto-flow: column;
     margin: 92px auto 0 auto;
     color: white;
 }

@@ -6,4 +6,4 @@
 По технологиям сложно. используется очевидно gtml, css, методология БЭМ, применена сетка grid для адаптивности сайта.
 
 
-Ссылка на github pages: https://stepanvlasov.github.io/Travelling-in-Russia/index.html
+Ссылка на github pages: https://stepanvlasov.github.io/russian-travel/index.html
