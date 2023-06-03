@@ -2,7 +2,7 @@
     max-width: 100%;
     font-family: 'Inter', 'Arial', sans-serif;
     font-size: 4.5em;
-    line-height: 1;
+    line-height: 1.06;
     font-weight: 900;
     margin: 0;
     padding: 0;
@@ -11,18 +11,18 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .place__title {
-        max-width: 94%;
+        width: 94%;
         font-size: 2em;
-        line-height: 1.1;
+        line-height: 1.09;
         margin: 0 auto 0 auto;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {        
     .place__title {
-        max-width: 94%;
+        width: 94%;
         font-size: 2.6em;
         line-height: 1.1;
-        margin: 0 auto 0 auto;
+        margin: 0 auto 0 0;
     }
 }

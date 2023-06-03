@@ -2,25 +2,24 @@
     max-width: 73%;
     font-family: "Inter",  sans-serif;
     font-size: 6em;
-    line-height: 1.1;
+    line-height: 1.04;
     font-weight: 900;
     margin: 0 auto 8px auto;
     padding: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .lead__title {
-        max-width: 94%;
+        max-width: 90%;
         font-size: 2.5em;
         line-height: 1.1;
         margin: 0 auto 16px auto;
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .lead__title {
-        font-size: 6em;
-        line-height: 1.2;
+        max-width: 94%;
         margin: 0 auto 8px auto;
     }
 }

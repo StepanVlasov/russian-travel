@@ -10,6 +10,8 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .footer {
+        max-width: 90%;
+        margin: 64px auto 0 auto;
         flex-direction: column;
         row-gap: 48px;
     }

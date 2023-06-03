@@ -1,9 +1,10 @@
 .website__url-heading {
     max-width: 100%;
-    font-family: "Inter-Regular", "Arial", sans-serif;
+    font-family: "Inter", "Arial", sans-serif;
     font-size: 0.8em;
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 2px;
-    margin: 0 0 12 0;
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
 }
