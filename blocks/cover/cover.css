@@ -1,5 +1,5 @@
 .cover {
-    max-width: 94%;
+    max-width: 1184px;
     min-height: 740px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -41,12 +41,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover {
+        margin: 90px auto 0 auto;
         min-height: 480px;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover {
+        margin: 92px auto 0 auto;
         min-height: 640px;
     }
 }
