@@ -6,3 +6,15 @@
     flex-direction: column;
     row-gap: 80px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .places__list {
+        row-gap: 50px; 
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places__list {
+        row-gap: 73px; 
+    }
+}
